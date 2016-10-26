@@ -1,3 +1,6 @@
 [submodule "OFile"]
 	path = OFile
 	url = git@github.com:The-Ofek-Foundation/OFile
+[submodule "OPrompt"]
+	path = OPrompt
+	url = git@github.com:The-Ofek-Foundation/OPrompt
