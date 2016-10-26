@@ -36,7 +36,7 @@ public class FolderUpdate {
 				else if (!fromFile.equals(toFile)) {
 					fromFile.copyReplace(folderToPath);
 					totalCopied++;
-					System.out.println("Copied " + removePathLayer(fromFile.getPath()));
+					System.out.println("Replaced " + removePathLayer(fromFile.getPath()));
 				}
 			} else {
 				toFile = fromFile.copyReplace(folderToPath);
